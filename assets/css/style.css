@@ -1,3 +1,9 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #333;
+    width: 956px;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -30,7 +36,6 @@
 }
 
 .main-nav ul {
-    padding: 0;
     margin: 0;
     list-style: none;
 }
@@ -42,4 +47,31 @@
 .main-nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+.main-content {
+    background:#eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+#container{
+    width: 400px;
+}
+#floated{
+    float: left;
+    width: 150px;
+}
+
+.main-footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 5%;
+    text-align: center;
 }
