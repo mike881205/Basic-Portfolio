@@ -8,23 +8,25 @@ body {
     background: #efeee7;
   }
 
-header {
+.top {
     background: #eeeeee;
 }
 
 h1 {
     position: fixed;
     top: 0;
-    left: 17%;
+    left: 18.5%;
     padding: 20px;
     margin: 0;
     text-align: center;
+    color: #eeeeee;
+    background-color: mediumslateblue;
 }
 
 #links {
     position: fixed;
     top: 0;
-    right: 17%;
+    right: 18.5%;
     padding: 13px;
     margin: 13px;
     color: #333;
