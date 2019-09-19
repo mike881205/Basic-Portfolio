@@ -1,9 +1,3 @@
-html body {
-    margin: 0;
-    height: 100%;
-    padding: 0;
-}
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -23,6 +17,8 @@ html body {
     color: #fff;
     padding: 20px 5%;
     box-shadow: 0 1px 3px #999;
+    margin: auto;
+    text-align: center;
 }
 
 .site-header h1 {
@@ -52,7 +48,7 @@ html body {
 
 .main-content {
     background:#eee;
-    width: auto;
+    width: 960px;
     height: auto;
     padding: 20px;
     margin: auto;
@@ -65,27 +61,31 @@ html body {
     margin-top: 0;
 }
 
-#container{
-    width: 400px;
-}
-#floated{
-    float: left;
-    width: 150px;
-}
-
 .about-img {
     height: 180px;
     margin: auto;
     padding: auto;
 }
 
-p {
-    padding: auto;
-}
 
 .main-footer {
     background: #333;
     color: #fff;
     padding: 5px 5%;
     text-align: center;
+    margin: auto;
 }
+
+/* Contact CSS */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

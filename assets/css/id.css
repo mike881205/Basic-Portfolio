@@ -1,0 +1,10 @@
+/* about image css */
+#container{
+    width: 400px;
+}
+#floated{
+    float: left;
+    width: 150px;
+}
+
+/* Contact CSS */

@@ -3,28 +3,44 @@
   <head>
     <meta charset="utf-8">
     <Title>Contact</Title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/element.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/class.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/id.css">
   </head>
   <body>
     <header class="site-header clearfix">
-      <h1>Michael Roberts</h1>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/index.html">About</a></li>
-          <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/portfolio.html">Portfolio</a></li>
-          <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="head_div">
+        <h1>Michael Roberts</h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/index.html">About</a></li>
+            <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="file:///C:/Users/19542/Desktop/class/homework/9_21/Basic-Portfolio/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="main-content">
-          <h2>Contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eum neque quasi laudantium cum, labore id. Fugiat deserunt, odit qui id rerum, nobis vel laudantium recusandae dolor maiores minima magni!
-          </p>
+          <div class="container">
+              <div>
+                <h2>Contact Me!</h2>
+              </div>
+                <div>
+                  <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+          </div>
       </section>
     </main>
-    <footer id="footer" class="main-footer clearfix">
+    <footer class="main-footer clearfix">
       <p class="copyright">
         Michael Roberts &copy; 2019
       </p>
