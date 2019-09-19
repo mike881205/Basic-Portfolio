@@ -1,9 +1,3 @@
-html body {
-    margin: 0;
-    height: 100%;
-    padding: 0;
-}
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -16,7 +10,13 @@ html body {
   /* start commented backslash hack \*/
   * html .clearfix { height: 1%; }
   .clearfix { display: block; }
-  /* close commented backslash hack */
+
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
 .site-header {
     background:#3f51b5;
@@ -59,7 +59,7 @@ html body {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 15px;
-}
+
 
 .main-content h2 {
     margin-top: 0;

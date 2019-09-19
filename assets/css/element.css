@@ -1,11 +1,13 @@
-html body {
+body {
     margin: 0;
     height: 100%;
     padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: url(https://designshack.net/wp-content/uploads/best-watercolor-backgrounds.jpg);
 }
 
 p {
-    padding: auto;
+  line-height: auto;
 }
 
 /* Contact CSS */
