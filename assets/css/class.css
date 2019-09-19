@@ -15,7 +15,6 @@ height: 0;
 .site-header {
 background:#3f51b5;
 color: #fff;
-padding: 20px 5%;
 box-shadow: 0 1px 3px #999;
 margin: auto;
 }
@@ -25,10 +24,16 @@ margin: 0;
 font-size: 20px;
 float: left;
 background: #e74b7f;
+position: relative;
+padding: 20px;
+left: 280px;
 }
 
 .main-nav {
 float: right;
+position: relative;
+padding: 20px;
+right: 280px;
 }
 
 .main-nav ul {
@@ -63,7 +68,7 @@ margin-top: 0;
 }
 
 .about-img {
-height: 180px;
+height: 190px;
 margin: auto;
 padding: auto;
 }
