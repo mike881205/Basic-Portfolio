@@ -26,14 +26,14 @@ float: left;
 background: #DA3643;
 position: relative;
 padding: 28px;
-left: 280px;
+left: 313px;
 }
 
 .main-nav {
 float: right;
 position: relative;
 padding: 20px;
-right: 280px;
+right: 313px;
 }
 
 .main-nav ul {
@@ -111,7 +111,7 @@ padding: 10px;
 .portfolio-content p {
     position: absolute;
     width: 100%;
-    top: 70%;
+    top: 80%;
     text-align: center;
     background-color: #DA3643;
     color: white;
@@ -120,7 +120,7 @@ padding: 10px;
 .portfolio-content a {
     position: relative;
     margin: 3%;
-    margin-left: 45px;
+    margin-left: 115px;
     float: left;
   }
 
